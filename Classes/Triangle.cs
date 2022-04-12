@@ -9,8 +9,5 @@ public class Triangle : Shape
         _height = height;
     }
 
-    public override decimal GetArea()
-    {
-        return Math.Round(((_base * _height) / 2), 2);
-    }
+    public override decimal GetArea() => Math.Round(((_base * _height) / 2), 2);
 }

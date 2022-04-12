@@ -16,8 +16,5 @@ public class Rectangle : Shape
         }
     }
 
-    public override decimal GetArea()
-    {
-        return length * width;
-    }
+    public override decimal GetArea() => length * width;
 }
